@@ -1,0 +1,5 @@
+#sidebar {
+    background-image: url();
+    display: flex;
+    flex-direction: column;
+}
