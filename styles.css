@@ -1,5 +1,18 @@
-#sidebar {
-    background-image: url();
+.sidebar {
+    background-image: url(images/leaves.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    flex: 1;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
 }
